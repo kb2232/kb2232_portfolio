@@ -1,0 +1,50 @@
+.header{
+  background-color: #ECEFF1;
+  min-height: 13vh;
+  min-width: 100vw;
+}
+.logo{
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #000;
+  border-radius: 30px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_order{
+  margin: 20px
+}
+.nav_order1{
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.nav_order2{
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav_order3{
+  width: fit-content;
+  border-bottom: 1px solid #000;
+  border-radius: 30px;
+  
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover{
+  color:#42A5F5;
+}
+.link:active{
+  color: inherit;
+}
